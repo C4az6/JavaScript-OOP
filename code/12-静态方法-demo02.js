@@ -20,5 +20,5 @@ Foo.bar();    // hello
 var f1 = new Foo();
 f1.bar();   // world
 
-
 // 上面代码中，静态方法bar调用了this.baz，这里的this指的是Foo类，而不是Foo的实例，等同于调用Foo.baz。另外，从这个例子还可以看出，静态方法可以与非静态方法重名。
+
